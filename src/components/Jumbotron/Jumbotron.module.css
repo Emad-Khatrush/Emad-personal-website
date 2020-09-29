@@ -1,0 +1,9 @@
+.Jumbotron{
+  margin: 150px 40px;
+  text-align: center;
+}
+@media (min-width: 776px) and (min-height: 625px) {
+  .Jumbotron{
+    
+  }
+}

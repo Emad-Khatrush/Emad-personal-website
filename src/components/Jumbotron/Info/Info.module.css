@@ -1,0 +1,11 @@
+.Info{
+  text-align: center;
+}
+.Info h2 {
+  width: 500px;
+}
+@media (min-width: 300px) and (min-height: 625px) {
+  .Info h2{
+    margin-left: 200px;
+  }
+}
