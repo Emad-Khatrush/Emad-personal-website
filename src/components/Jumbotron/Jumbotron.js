@@ -5,18 +5,18 @@ import RoundedImage from '../../UI/RoundedImage/RoundedImage';
 import Info from './Info/Info';
 
 const jumbotron = () => {
-  let myClasses = [classes.Jumbotron, 'contianer'];
+  let myClasses = [classes.Jumbotron];
   return(
-    <section className={myClasses.join(' ')}>
+    <main className={myClasses.join(' ')}>
       <div className="row">
-        <div className="col-sm-12 col-md-5 col-lg-5 ">
+        <div className="col-sm-12 col-md-12 col-lg-5 ">
           <RoundedImage />
         </div>
-        <div className="col-sm-12 col-md-7 col-lg-7 ">
+        <div className="col-sm-12 col-md-12 col-lg-7 ">
           <Info />
         </div>
       </div>
-    </section>
+    </main>
   )
 }
 export default jumbotron;

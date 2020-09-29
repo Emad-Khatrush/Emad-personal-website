@@ -7,7 +7,7 @@ class Home extends Component{
 
   render(){
     return(
-      <div>
+      <div className="contianer">
         <Toolbar />
         <Jumbotron />
         <p> sections </p>
