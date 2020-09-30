@@ -1,0 +1,47 @@
+.Education{
+  padding-left: 35px;
+  padding-bottom: 35px;
+  font-family: 'Poppins', sans-serif;
+}
+.Education h2{
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.Education h2::after{
+  display: block;
+  position: absolute;
+  content: '';
+  width: 50px;
+  background-color: #007ced;
+  height: 3px;
+  bottom: 0;
+}
+.Education h2::before{
+  display: block;
+  position: absolute;
+  content: '';
+  width: 100%;
+  background-color: #f4f4f4;
+  height: 3px;
+  bottom: 0;
+}
+.CardLogo img{
+  width: 150px;
+}
+.CardTitle h4{
+  font-size: 26px;
+  font-weight: 800;
+}
+.Major p{
+  color: #BBB;
+  font-size: 15px;
+  padding-bottom: 25px;
+}
+.CardContent p {
+  color: #666;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 35px;
+}
