@@ -1,0 +1,168 @@
+.Technologies{
+  padding-left: 35px;
+  padding-bottom: 35px;
+}
+.Technologies h2{
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+.Technologies h2::after{
+  display: block;
+  position: absolute;
+  content: '';
+  width: 50px;
+  background-color: #007ced;
+  height: 3px;
+  bottom: 0;
+}
+.Technologies h2::before{
+  display: block;
+  position: absolute;
+  content: '';
+  width: 100%;
+  background-color: #f4f4f4;
+  height: 3px;
+  bottom: 0;
+}
+.Technologies ul{
+  padding-left: 0;
+  padding-bottom: 30px;
+}
+.Technologies li{
+  position: relative;
+  list-style: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.Technologies h6{
+  position: absolute;
+  padding: 9px;
+  color: #ececec;
+}
+
+.Technologies li:before {
+  z-index: -2;
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 90%;
+  height: 20px;
+  background-color: rgba(54, 126, 223, .5);
+  border-radius: 1000px;
+}
+.Technologies li:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 20px;
+  background-color: rgba(54, 126, 223, 1);
+  border-radius: 1000px;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.Technologies .HTML:after {
+  animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 90%;
+    }
+}
+
+.Technologies .CSS:after {
+  animation-name: css;
+}
+
+@keyframes css {
+    to {
+        width: 85%;
+    }
+}
+
+.Technologies .Javascript:after {
+  animation-name: javascript;
+}
+
+@keyframes javascript {
+    to {
+        width: 85%;
+    }
+}
+
+.Technologies .React:after {
+  animation-name: react;
+}
+
+@keyframes react {
+    to {
+        width: 75%;
+    }
+}
+
+.Technologies .JQuery:after {
+  animation-name: jquery;
+}
+
+@keyframes jquery {
+    to {
+        width: 85%;
+    }
+}
+
+.Technologies .Bootstrap:after {
+  animation-name: bootstrap;
+}
+
+@keyframes bootstrap {
+    to {
+        width: 90%;
+    }
+}
+
+.Technologies .Redux:after {
+  animation-name: redux;
+}
+
+@keyframes redux {
+    to {
+        width: 72%;
+    }
+}
+
+.Technologies .Node:after {
+  animation-name: node;
+}
+
+@keyframes node {
+    to {
+        width: 87%;
+    }
+}
+
+.Technologies .Express:after {
+  animation-name: express;
+}
+
+@keyframes express {
+    to {
+        width: 90%;
+    }
+}
+
+.Technologies .MangoDB:after {
+  animation-name: mangodb;
+}
+
+@keyframes mangodb {
+    to {
+        width: 90%;
+    }
+}

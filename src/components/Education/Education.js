@@ -65,7 +65,7 @@ const education = () => {
           </InfoBox>
         </div>
 
-        <div className="col-sm-12 col-md-6 col-lg-4">
+        <div className="col-sm-12 col-md-12 col-lg-4">
           <InfoBox>
             <div className={classes.CardLogo}>
               <img src={beykentLogo} alt="not found"/>
