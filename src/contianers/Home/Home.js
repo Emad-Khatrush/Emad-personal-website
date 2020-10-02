@@ -5,6 +5,7 @@ import Jumbotron from '../../components/Jumbotron/Jumbotron';
 import Skills from '../../components/Skills/Skills';
 import Education from '../../components/Education/Education';
 import Technologies from '../../components/Technologies/Technologies';
+import Languages from '../../components/Languages/Languages';
 
 class Home extends Component{
 
@@ -16,6 +17,7 @@ class Home extends Component{
         <Skills />
         <Education />
         <Technologies />
+        <Languages />
       </div>
     )
   }
