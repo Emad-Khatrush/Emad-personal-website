@@ -6,7 +6,7 @@ import NavItems from '../NavItems/NavItems';
 
 const toolbar = () => {
   return(
-    <header className={`${classes.Toolbar} countainer`}>
+    <header className={`${classes.Toolbar}`}>
       <Logo />
       <nav>
         <NavItems />
