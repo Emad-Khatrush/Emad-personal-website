@@ -21,3 +21,8 @@
   font-weight: bold;
   font-family: 'Open Sans Condensed', sans-serif;
 }
+@media (max-width: 708px){
+  .FirstName{
+    display: none;
+  }
+}
