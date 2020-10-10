@@ -3,19 +3,20 @@
   width: 100%;
 }
 .RoundedImage img{
-  width: 300px;
+  width: 100%;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
   text-align: center;
   box-sizing: border-box;
   box-shadow: 5px 5px 5px 5px #ccc;
-  border: 12px solid #ffffff;
+  border: 3px solid #ffffff;
   margin-left: auto;
 }
 
 @media (min-width: 950px) {
   .RoundedImage img{
     width: 400px;
+    border: 10px solid #ffffff;
   }
 }

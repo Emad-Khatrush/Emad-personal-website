@@ -5,7 +5,6 @@ import Skills from '../../components/Skills/Skills';
 import Education from '../../components/Education/Education';
 import Technologies from '../../components/Technologies/Technologies';
 import Languages from '../../components/Languages/Languages';
-import Footer from '../../components/Footer/Footer';
 
 class Home extends Component{
 
@@ -17,7 +16,6 @@ class Home extends Component{
           <Education />
           <Technologies />
           <Languages />
-          <Footer />
         </div>
     )
   }

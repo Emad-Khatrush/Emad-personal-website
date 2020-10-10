@@ -5,6 +5,8 @@ import './App.css';
 import { Route } from 'react-router-dom';
 import Toolbar from './components/Navbar/Toolbar/Toolbar';
 import SideDrawer from './UI/SideDrawer/SideDrawer';
+import Portfolio from './contianers/Portfolio/Portfolio';
+import Footer from './components/Footer/Footer';
 
 class App extends Component{
 
@@ -27,8 +29,11 @@ class App extends Component{
         <SideDrawer
           open={this.state.showSideDrawer}
           closed={this.sideDrawerClosed}/>
-          
+
         <Route path="/" exact component={Home} />
+        <Route path="/Portfolio" exact component={Portfolio} />
+
+        <Footer />
       </div>
     )
   }

@@ -1,0 +1,80 @@
+.MyProject{
+  padding-top: 50px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+.Images {
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  background: black;
+  overflow: hidden;
+}
+
+.Images img{
+  width: 100%;
+  transition: transform .40s, visibility .40s ease-in;
+}
+
+.MyProject .Images:hover{
+  & img:hover{
+    object-fit: cover;
+    opacity: 0.7;
+    transform: scale(1.3);
+  }
+  & + span{
+    opacity: 1;
+  }
+  & + span + i{
+    opacity: 1;
+  }
+}
+
+.MyProject .Name{
+  position: absolute;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 4px 10px;
+  top: 15px;
+  left: 35px;
+  line-height: 1.2;
+}
+
+.MyProject h4{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.MyProject span{
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 4px 10px;
+  top: 200px;
+  left: 40px;
+  line-height: 1.2;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all .3s ease-in-out;
+  opacity: 0;
+}
+.MyProject i{
+  font-size: 25px;
+  color: #0066df;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 4px 10px;
+  top: 190px;
+  left: 320px;
+  line-height: 1.2;
+  font-weight: 400;
+  transition: all .3s ease-in-out;
+  opacity: 0;
+}

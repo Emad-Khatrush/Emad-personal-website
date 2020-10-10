@@ -1,0 +1,17 @@
+.SubjectTitle{
+  padding: 120px 55px;
+  padding-bottom: 50px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 3px rgba(204, 204, 204, 0.3);
+}
+.SubjectTitle h1{
+  font-size: 52px;
+  font-weight: 600;
+  color: #333;
+}
+.SubjectTitle h4{
+  color: #AAA;
+  font-size: 21px;
+  font-weight: 400;
+}
