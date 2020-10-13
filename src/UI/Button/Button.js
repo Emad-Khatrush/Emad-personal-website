@@ -9,7 +9,7 @@ const button = (props) => {
     typeButton.push(classes.secondary);
   }
   return(
-    <button className={typeButton.join(" ")}> {props.children} </button>
+    <button className={typeButton.join(" ")} onClick={props.clicked}> {props.children} </button>
   )
 }
 export default button;

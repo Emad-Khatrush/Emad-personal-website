@@ -1,0 +1,99 @@
+.ContactInfo{
+  margin-top: 50px;
+  padding-bottom: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+.ContactInfo h4{
+  font-size: 20px;
+  font-weight: 800;
+  color: #333;
+  max-width: 100%;
+  display: inline;
+  position: absolute;
+}
+.ContactInfo i{
+  font-size: 50px;
+  color: #0066df;
+  display: inline;
+  padding-left: 30px;
+}
+
+.ContactInfo p{
+  padding-left: 100px;
+  padding-bottom: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  position: relative;
+  top: -15px;
+}
+.ContactInfo h2{
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.ContactInfo h2::after{
+  display: block;
+  content: '';
+  width: 50px;
+  background-color: #007ced;
+  height: 3px;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.ContactInfo input, textarea{
+  position: relative;
+  border: 2px solid #bfbfbf;
+  border-radius: 5px;
+  display: block;
+  font-size: 1em;
+  margin: 0;
+  padding: 15px 25px 15px 12px;
+  margin-bottom: 20px;
+  width: 100%;
+  min-width: 100%;
+  background: 0 0;
+  text-align: left;
+  color: inherit;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  font-family: poppins ,Helvetica,sans-serif;
+  transition: all .3s ease-out;
+}
+.ContactInfo textarea{
+  height: 90%;
+}
+.ContactInfo input:focus, textarea:focus{
+  border: 2px solid #007ced;
+}
+.ContactInfo input::placeholder, textarea::placeholder{
+  font-size: 20px;
+  opacity: 0.7;
+}
+.ContactInfo .InputValidStyle{
+  border: 2px solid #b90e08;
+}
+
+.ContactInfo h4:nth-of-type(1){
+  padding-left: 32px;
+}
+.ContactInfo h4:nth-of-type(2){
+  font-size: 17px;
+  padding-left: 20px;
+}
+.ContactInfo i:nth-of-type(2){
+  padding-left: 20px;
+}
+
+@media (min-width: 600px) {
+    .ContactInfo h4:nth-of-type(2) {
+      max-width: 100%;
+      font-size: 22px;
+    }
+}

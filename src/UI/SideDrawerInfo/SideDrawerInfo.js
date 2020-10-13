@@ -36,7 +36,7 @@ class SideDrawerInfo extends Component {
     let displayTechnology = null;
     if (this.props.project) {
       displayTechnology = this.props.project.technology.map( skill => {
-        return <li key={skill}> <a> {skill} </a> </li>
+        return <li key={skill}> <button> {skill} </button> </li>
       });
     }
 

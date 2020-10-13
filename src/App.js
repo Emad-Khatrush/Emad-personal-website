@@ -7,6 +7,7 @@ import Toolbar from './components/Navbar/Toolbar/Toolbar';
 import SideDrawer from './UI/SideDrawer/SideDrawer';
 import Portfolio from './contianers/Portfolio/Portfolio';
 import Footer from './components/Footer/Footer';
+import Contact from './contianers/Contact/Contact';
 
 class App extends Component{
 
@@ -32,7 +33,7 @@ class App extends Component{
 
         <Route path="/" exact component={Home} />
         <Route path="/Portfolio" exact component={Portfolio} />
-
+        <Route path="/Contact" exact component={Contact} />
         <Footer />
       </div>
     )

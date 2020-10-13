@@ -1,0 +1,20 @@
+.MessageState{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.MessageState i{
+  color: #16df24;
+  font-size: 150px;
+  padding: 20px;
+}
+.MessageState h1{
+  color: #333;
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 600;
+}
+@media (min-width: 600px) {
+    .MessageState {
+      text-align: center;
+    }
+}

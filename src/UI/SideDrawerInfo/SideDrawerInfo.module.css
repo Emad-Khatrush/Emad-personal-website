@@ -90,7 +90,7 @@
 .Technology li{
   display: inline-block;
 }
-.Technology a{
+.Technology button{
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   display: inline-block;
