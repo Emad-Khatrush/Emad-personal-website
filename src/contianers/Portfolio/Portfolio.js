@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 
-import MyProject from '../../components/MyProjects/MyProject';
+import MyProjects from '../../components/MyProjects/MyProject';
 import SubjectTitle from '../../components/SubjectTitle/SubjectTitle';
 import SideDrawerInfo from '../../UI/SideDrawerInfo/SideDrawerInfo';
 import { withRouter } from 'react-router-dom';
 import { projectsData }  from '../../assest/projectData/projectData';
+import Footer from '../../components/Footer/Footer';
+import Aux from '../../HOC/Auxiliary';
+
+import classes from './Portfolio.module.css';
 
 class Portfolio extends Component{
   state = {
@@ -32,22 +36,23 @@ class Portfolio extends Component{
  }
 
   render(){
-    let displaySideDrawerInfo = null;
+    let displaySideDrawerInfo = <SideDrawerInfo />;
     if (!this.state.loading) {
       displaySideDrawerInfo = <SideDrawerInfo
       open={this.state.showSideDrawerInfo}
       closed={this.sideDrawerClosed}
       project={this.state.projectData}/>;
-    }else {
-      displaySideDrawerInfo = <SideDrawerInfo />;
     }
 
     return(
-        <div className="container-fluid">
+      <Aux>
+        <div className={`${classes.Portfolio} container-fluid`}>
           <SubjectTitle title="Portfolio" desc="My Works" />
-          <MyProject drawerOpenHandler={this.drawerOpenHandler}/>
+          <MyProjects drawerOpenHandler={this.drawerOpenHandler}/>
           {displaySideDrawerInfo}
         </div>
+        <Footer />
+      </Aux>
     )
   }
 }

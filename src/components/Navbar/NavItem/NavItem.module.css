@@ -2,7 +2,6 @@
     margin: 10px 0;
     box-sizing: border-box;
     display: block;
-    width: 100%;
 }
 
 .NavItem a {
@@ -21,9 +20,9 @@
 .NavItem a:active,
 .NavItem a.active {
   font-weight: 800;
-  border-bottom: 5px solid #4767f2;
   padding-bottom: 0;
   transform: matrix3d(360deg);
+  border-bottom: 4px solid #4767f2;
 }
 
 @media (min-width: 500px) {
@@ -40,7 +39,7 @@
       font-size: 1.2rem;
       font-weight: 100;
       width: 100%;
-      padding: 16px 25px;
+      margin-right: 50px
   }
   .NavItem a:hover{
     color: #ccc;

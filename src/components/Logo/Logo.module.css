@@ -1,5 +1,4 @@
 .Logo{
-  background-color: white;
   text-align: center;
   margin-top: auto;
   padding-bottom: 5px;
@@ -12,14 +11,20 @@
 }
 .FirstName{
   font-size: 1.6rem;
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
   margin-left: 5px;
 }
 .LastName{
   font-size: 1.5rem;
-  font-weight: bold;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.Logo a{
+  color: black;
+}
+.Logo a:hover{
+  text-decoration: none;
 }
 @media (max-width: 708px){
   .FirstName{

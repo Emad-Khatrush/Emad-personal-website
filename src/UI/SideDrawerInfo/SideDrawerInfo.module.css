@@ -113,3 +113,17 @@
 .Close{
   transform: translate(-100%);
 }
+
+@media (max-width: 600px) {
+
+    .PageTitle .CrossIcon{
+      text-align: end;
+      padding-right: 7px;
+      padding-bottom: 5px;
+    }
+    .PageInfo div img{
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+}

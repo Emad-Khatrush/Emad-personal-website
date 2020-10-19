@@ -5,7 +5,7 @@ import skillsClasses from '../Skills/Skills.module.css';
 
 const technologies = () => {
   return(
-    <section className={classes.Technologies}>
+    <section onScroll={()=> console.log("reached")} className={classes.Technologies}>
       <div className="row">
         <div className="col-sm-12">
           <div className={skillsClasses.Title}>

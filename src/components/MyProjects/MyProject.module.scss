@@ -56,8 +56,8 @@
   background-color: #fff;
   border-radius: 6px;
   padding: 4px 10px;
-  top: 200px;
-  left: 40px;
+  top: 73%;
+  left: 10%;
   line-height: 1.2;
   font-size: 16px;
   font-weight: 400;
@@ -71,10 +71,23 @@
   background-color: #fff;
   border-radius: 6px;
   padding: 4px 10px;
-  top: 190px;
-  left: 320px;
+  top: 70%;
+  left: 70%;
   line-height: 1.2;
   font-weight: 400;
   transition: all .3s ease-in-out;
   opacity: 0;
+}
+@media (max-width: 992px) {
+
+    .MyProject i{
+      top: 67%;
+      left: 70%;
+    }
+}
+@media (max-width: 600px){
+  .MyProject span{
+    top: 69%;
+    left: 10%;
+  }
 }

@@ -1,10 +1,6 @@
-.Jumbotron{
-  padding: 120px 60px;
-  text-align: center;
-  padding-bottom: 70px;
+.Contact{
   animation: fadeInAnimation ease .8s;
   animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 @keyframes fadeInAnimation
 {
