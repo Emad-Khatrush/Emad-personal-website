@@ -10,7 +10,10 @@ const info = () => {
     <div className={classes.Info}>
         <h4> Full-Stack Web Developer </h4>
         <h1> Emad Khatrush </h1>
-        <p> Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu. </p>
+        <p> I am an ambitious and hardworking person, I have a very
+            good experience as a Full-Stack Web Developer, building
+            projects from scratch using HTML/CSS javascript, React.js, and
+            Node.js on the server-side.</p>
         <Link to={emadCv} target="_blank" download> <Button type="primary">  Download CV </Button> </Link>
          <Link to="/Contact"> <Button type="secondary"> Contact </Button> </Link>
     </div>

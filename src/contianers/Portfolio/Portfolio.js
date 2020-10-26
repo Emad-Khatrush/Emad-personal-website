@@ -43,7 +43,7 @@ class Portfolio extends Component{
       closed={this.sideDrawerClosed}
       project={this.state.projectData}/>;
     }
-
+    console.log(this.state.projectData);
     return(
       <Aux>
         <div className={`${classes.Portfolio} container-fluid`}>

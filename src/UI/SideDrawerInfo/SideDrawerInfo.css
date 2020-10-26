@@ -1,5 +1,6 @@
 .slides{
   width: 100%;
+  box-shadow: 2px 2px 2px 3px #d7d7d7;
 }
 
 .slides .slick-prev,
@@ -27,4 +28,8 @@
 
 .slides .slick-next {
   right: 5%;
+  color: black;
+}
+.slides .slick-next:before, .slides .slick-prev:before{
+  color: black;
 }

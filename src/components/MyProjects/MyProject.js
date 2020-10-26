@@ -20,13 +20,13 @@ const myProject = (props) => {
             path: "/Portfolio",
             hash: "Project-1"
           }}>
-            <img onClick={hideScrollBar} src="https://images.unsplash.com/photo-1593642634627-6fdaf35209f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="not found"/>
+            <img onClick={hideScrollBar} src="https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="not found"/>
           </Link>
           </div>
           <span> Details </span>
           <i className="far fa-file-alt"></i>
         <div className={classes.Name}>
-          <h4> Full Project 2</h4>
+          <h4> TAS-SWEETS PROJECT </h4>
         </div>
 
         </div>
@@ -36,13 +36,13 @@ const myProject = (props) => {
             path: "/Portfolio",
             hash: "Project-2"
           }}>
-            <img onClick={hideScrollBar} src="https://images.unsplash.com/photo-1593642634627-6fdaf35209f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="not found"/>
+            <img onClick={hideScrollBar} src={require("../../assest/images/rickAndMorty.jpg")} alt="not found"/>
           </Link>
           </div>
           <span> Details </span>
           <i className="far fa-file-alt"></i>
           <div className={classes.Name}>
-            <h4> Full Project 2</h4>
+            <h4> THE RICK AND MORTY API </h4>
           </div>
         </div>
         <div className="col-sm-12 col-md-6 col-lg-4">
@@ -51,13 +51,13 @@ const myProject = (props) => {
             path: "/Portfolio",
             hash: "Project-3"
           }}>
-            <img onClick={hideScrollBar} src="https://images.unsplash.com/photo-1593642634627-6fdaf35209f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="not found"/>
+            <img onClick={hideScrollBar} src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80" alt="not found"/>
           </Link>
           </div>
           <span> Details </span>
           <i className="far fa-file-alt"></i>
           <div className={classes.Name}>
-            <h4> Full Project 2</h4>
+            <h4> EMAD PERSONAL WEBSITE </h4>
           </div>
         </div>
       </div>

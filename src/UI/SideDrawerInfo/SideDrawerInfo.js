@@ -34,10 +34,19 @@ class SideDrawerInfo extends Component {
       className: "slides"
     };
     let displayTechnology = null;
+    let images = null;
     if (this.props.project) {
       displayTechnology = this.props.project.technology.map( skill => {
         return <li key={skill}> <button> {skill} </button> </li>
       });
+      images = this.props.project.images.map((image, i) => {
+        return(
+          <div key={i}>
+            <img src={require("../../assest" + image.src)} width="100%" alt="not found"/>
+            <h5> {image.title} </h5>
+          </div>
+        )
+      })
     }
 
     return(
@@ -48,22 +57,14 @@ class SideDrawerInfo extends Component {
             <div onClick={this.displayScrollBar} className={classes.CrossIcon}>
               <i onClick={this.props.closed} className="fas fa-times"></i>
             </div>
-            <h1> {this.props.project.id} </h1>
+            <h1> {this.props.project.name} </h1>
           </div>
 
           <div className="row">
             <div className="col-sm-12 col-md-7">
               <div className={classes.PageInfo}>
                 <Slider {...settings}>
-                  <div>
-                    <img alt="not found" width="100%" src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=847&q=80" />
-                  </div>
-                  <div>
-                    <img alt="not found" width="100%" src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
-                  </div>
-                  <div>
-                    <img alt="not found" width="100%" src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" />
-                  </div>
+                  {images}
                 </Slider>
               </div>
             </div>
