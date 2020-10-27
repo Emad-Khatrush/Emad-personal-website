@@ -5,6 +5,7 @@
   height: 100%;
   display: block;
   margin: 0 0 15px;
+  margin-bottom: 50px;
   background: #fff;
   padding: 25px 10px 15px;
   border: 2px solid #e5e5e5;
@@ -16,4 +17,9 @@
 .InfoBox:hover{
   transform: scale(1.05);
   box-shadow: 2px 2px 2px 1px #dbdbdb;
+}
+@media (max-width: 900px){
+  .InfoBox {
+    height: auto;
+  }
 }

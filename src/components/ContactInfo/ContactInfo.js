@@ -174,11 +174,11 @@ class contactInfo extends Component{
           <div className="col-sm-12 col-md-12 col-lg-4">
             <i className="fas fa-mobile-alt"></i>
               <h4> +905535728209 </h4>
-              <p> Duis erat leo, aliquam laoreet fringilla quis, pretium vitae dui. </p>
+              <p> Feel free to contact me :) </p>
 
               <i className="far fa-envelope"></i>
                 <h4> qwe.emad@hotmail.com </h4>
-                <p> Duis erat leo, aliquam laoreet fringilla quis, pretium vitae dui. </p>
+                <p> Don't bother me late at night :D </p>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-8">
             <div>
